@@ -11,7 +11,7 @@ import java.util.List;
 public class BookController {
 
     @GetMapping("/books")
-    public List<Book> getAllBooks(){
-        return Arrays.asList(new Book(1, "War and Peace", "L.Tolstoy"));
+    public List<Book> getAllBooks() {
+        return Arrays.asList(new Book(1, "War and Peace", "L. Tolstoy"));
     }
 }
